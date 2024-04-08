@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
+    "target": "esnext",
+    "outDir": "./dest",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@adminjs/mongoose": ["./node_modules/@adminjs/mongoose"]
+    }
+  }
+}

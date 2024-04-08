@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Schemes",
+    "slug": "scheme",
+    "version": "1.0.0",
+    "scheme": "acme",
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "buildType": "app",
+      "package": "com.nayakdeba.scheme"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f41754ec-cb2b-4f28-8e68-a67e0c5d832b"
+      }
+    },
+    "owner": "nayakdeba"
+  }
+}
